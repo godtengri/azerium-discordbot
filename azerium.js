@@ -285,7 +285,7 @@ console.log("Listening on Port 3000");
 
 
   client.on('guildCreate', guild => {
-  if(guild.memberCount < 5) return .
+  if(guild.memberCount < 5) return
   let DestekSunucusu = client.guilds.cache.get("661096922144178176");
   DestekSunucusu.members.cache.get(guild.owner.user.id).roles.add("848664290968731700");
   });
